@@ -1,4 +1,3 @@
-package com.driver;
 
 public class F1 extends Car {
 
@@ -10,9 +9,9 @@ public class F1 extends Car {
     public void accelerate(int rate){
         int newSpeed = 0; //set the value of new speed by using currentSpeed and rate
         int currSpeed=super.getCurrentSpeed();
-       newSpeed= currSpeed+rate;
+        newSpeed= currSpeed+rate;
 
-    /**
+        /**
          * speed 0: gear 1
          * speed 1-50: gear 1
          * speed 51-100: gear 2

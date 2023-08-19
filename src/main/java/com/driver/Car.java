@@ -1,4 +1,3 @@
-package com.driver;
 
 public class Car extends Vehicle {
     private int wheels;
@@ -22,9 +21,9 @@ public class Car extends Vehicle {
     public boolean isManual(){
         return this.isManual;
     }
-   public String getType(){
+    public String getType(){
         return this.type;
-   }
+    }
     public int getCurrentGear(){
         return this.currentGear;
     }
@@ -32,7 +31,7 @@ public class Car extends Vehicle {
         return this.seats;
     }
     public void setWheels(int wheels){
-      this.wheels=wheels;
+        this.wheels=wheels;
     }
     public void setType(String type){
         this.type=type;
@@ -81,12 +80,12 @@ public class Car extends Vehicle {
     }
 
     public void changeGear(int newGear){
-this.currentGear=newGear;
+        this.currentGear=newGear;
         System.out.println("changeGear method called - The gear is changed to: " + currentGear);
     }
 
     public void changeSpeed(int newSpeed, int newDirection){
-    super.move(newSpeed,newDirection);
+        super.move(newSpeed,newDirection);
         System.out.println("changeSpeed method called - The speed is changed to: " + newSpeed + ", and the direction is changed to: " + newDirection + " degrees");
     }
 }

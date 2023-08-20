@@ -1,6 +1,5 @@
-/* By Umesh Gupta */
 
-public class Boat implements WaterVehicle{
+class Boat implements WaterVehicle {
     private String name;
     private int capacity;
 
@@ -8,18 +7,14 @@ public class Boat implements WaterVehicle{
         this.name = name;
         this.capacity = capacity;
     }
-    public int getVehicleCapacity(){
-        return this.capacity;
-    }
-    public String getVehicleName(){
-        return this.name;
+
+    @Override
+    public String getVehicleName() {
+        return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
+    @Override
+    public int getVehicleCapacity() {
+        return capacity;
     }
 }

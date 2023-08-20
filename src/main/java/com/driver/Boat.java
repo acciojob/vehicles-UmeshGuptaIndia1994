@@ -1,4 +1,4 @@
-/* By Umesh Gupta*/
+/* By Umesh Gupta */
 
 public class Boat implements WaterVehicle{
     private String name;

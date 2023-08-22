@@ -1,9 +1,14 @@
 /* By Umesh Gupta */
 
+interface WaterVehicle {
+    String getVehicleName();
+    int getVehicleCapacity();
+}
+
 class Vehicle {
-    protected String name;
-    protected double currentSpeed;
-    protected double currentDirection;
+    String name;
+    double currentSpeed;
+    double currentDirection;
 
     public Vehicle(String name) {
         this.name = name;
@@ -12,15 +17,15 @@ class Vehicle {
     }
 
     public void move(double speed, double direction) {
-        this.currentSpeed = speed;
-        this.currentDirection = direction;
+        currentSpeed = speed;
+        currentDirection = direction;
     }
 
     public void steer(double direction) {
-        this.currentDirection += direction;
+        currentDirection += direction;
     }
 
     public void stop() {
-        this.currentSpeed = 0;
+        currentSpeed = 0;
     }
 }

@@ -1,10 +1,5 @@
 /* By Umesh Gupta */
 
-interface WaterVehicle {
-    String getVehicleName();
-    int getVehicleCapacity();
-}
-
 class Vehicle {
     String name;
     double currentSpeed;

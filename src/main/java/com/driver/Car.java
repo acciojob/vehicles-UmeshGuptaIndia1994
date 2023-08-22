@@ -10,7 +10,7 @@ class Car extends Vehicle {
     }
 
     public void changeGear(int newGear) {
-        this.currentGear = newGear;
+        currentGear = newGear;
     }
 
     public void changeSpeed(double newSpeed, double newDirection) {

@@ -1,3 +1,4 @@
+package com.driver;
 
 class Boat implements WaterVehicle {
     String name;

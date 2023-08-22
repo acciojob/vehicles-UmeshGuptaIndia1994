@@ -1,4 +1,4 @@
-/* By Umesh Gupta */
+package com.driver;
 
 interface WaterVehicle {
     String getVehicleName();
